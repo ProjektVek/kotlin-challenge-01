@@ -23,13 +23,9 @@ class MainActivity : AppCompatActivity(){
     }
 
     private fun setTextToCounter() {
-        binding.textView.text = "" + counter
+        binding.textView.text = counter
     }
 
-    fun setCounterToZero() {
-        counter = 0
-        setTextToCounter()
-    }
 
     fun addOne() {
         counter++
