@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity(){
         binding.textView.text = model.getCounterValue().toString()
 
         binding.floatingActionButton.setOnClickListener{buttonClicked(model)}
-
     }
 
     private fun setTextToCounter(model: Model) {
